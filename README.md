@@ -21,3 +21,5 @@ the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at https://www.gnu.org/software/classpath/license.html.
 # clojure-next-jdbc
+
+## Repositório com exemplos de como conectar aplicações clojure com bancos de dados utilizando next-jdbc
