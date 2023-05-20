@@ -1,6 +1,7 @@
 (ns clojure-next-jdbc.core
   (:require [next.jdbc :as jdbc]))
 
+; exemplo de conxao com banco de dados oracle (sid)
 (def datasource-oracle-sid
   {
    :dbtype   "oracle:sid"
@@ -10,6 +11,7 @@
 
 (jdbc/execute! datasource-oracle-sid ["SELECT * FROM DUAL"])
 
+; exemplo de conxao com banco de dados postegres
 (def datasource-postgres
   {
    :dbtype   "postgresql"
